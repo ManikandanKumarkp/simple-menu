@@ -38,10 +38,10 @@
     background-color:Lime;
     width:20px;
     height:9px;
-    border-radius:50px;
+    border-radius:20px;
     text-align:center;
     display:block;
-    margin:8px;
+    margin:4px;
     padding:4px;
     border:2px solid #000;
     cursor:pointer;
@@ -52,7 +52,7 @@
 }
     .btn:hover
     {
-       opacity:1;
+       opacity:0;
         }
           .sliderbar ul
         {
@@ -61,19 +61,21 @@
             width:fixed auto;
             height:511px;
             background:red;
-    top:12px;
+    top:10px;
     left: 1px;
+    border-radius: 5px;
 }
             .sliderbar ul li
             {
-                padding:15px;
-                 border-top:1px solid #333;
-                border-bottom:1px solid  #333;
+                padding:8px;
+                 border-top:5px ;
+                border-bottom:1px ;
+                border-radius: 8px;
                 }
                .sliderbar ul li a
                 {
-                    color:Green;
-                    display:block;
+                    color:gray;
+                    display:blue;
                     text-decoration:none;
                 }
                        .sliderbar ul li:hover
