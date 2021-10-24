@@ -4,11 +4,11 @@
 .menu ul {
   padding: 0;
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 .menu ul li {
   float: left;
-  text-align: center;
+  text-align: left;
   width: 120px;
   margin: 1px;
   azimuth: center;
@@ -34,7 +34,7 @@
 
 .btn
 {
-    position:fixed;
+    position:center;
     background-color:Lime;
     width:20px;
     height:9px;
@@ -61,8 +61,8 @@
             width:fixed auto;
             height:511px;
             background:red;
-    top: 0px;
-    left: 11px;
+    top:12px;
+    left: 1px;
 }
             .sliderbar ul li
             {
