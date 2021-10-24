@@ -1,49 +1,34 @@
-
-.menu
-{
-    margin:0px;
+.menu {
+  margin: 0px;
 }
-.menu ul
-{
-    padding:0;
-    list-style:none;
-        text-align: center;
-        border-radious:2px;
-    }
-    .menu ul li
-    {
-        float:left;
-        text-align:center;
-        width:120px;
-        margin:1px;
-        azimuth:center;
-     
-        }
-        .menu ul li 
-        {
-            color:Silver;
-            text-decoration: none;
-            font-family:Calibri;
-            background-color:Blue;
-            display:block;
-            padding:10px;
-              
-         }
-            .menu ul li:hover
-            {
-                background:#fff;
-                color:Blue;
-                  
-            } 
-            .menu ul li ul
-           {
-                display:none;
-                
-                }
-                .menu ul li:hover ul
-                {
-                  display:block;
-                   } 
-                  
-                            
-    
+.menu ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  border-radious: 2px;
+}
+.menu ul li {
+  float: left;
+  text-align: center;
+  width: 120px;
+  margin: 1px;
+  azimuth: center;
+}
+.menu ul li a {
+  color: Silver;
+  text-decoration: none;
+  font-family: Calibri;
+  background-color: Blue;
+  display: block;
+  padding: 10px;
+}
+.menu ul li a:hover {
+  background: #fff;
+  color: Blue;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu ul li:hover ul {
+  display: block;
+}
