@@ -39,24 +39,27 @@
 .btn
 {
     position:center;
-    background-color:black;
+    background-color:gray;
     width:20px;
     height:9px;
-    border-radius:20px;
+    border-radius:12px;
     text-align:center;
     display:block;
-    margin:0px;
-    padding:0px;
+    margin:3px;
+    padding:2px;
     border:2px solid #000;
     cursor:pointer;
     opacity:0.1;
-    transition:3s;
+    transition:5s;
     top: -12px;
     left: 9px;
+    scroll-snap-type: proximity;
 }
     .btn:hover
     {
-       opacity:0;
+       opacity:1;
+       transition:4sc;
+
         }
           .sliderbar ul
         {
@@ -66,12 +69,13 @@
             height:511px;
             background:blue;
     top:10px;
-    left: 1px;
+    left:1px;
     border-radius: 5px;
 }
             .sliderbar ul li
             {
-              margin: 0px;
+              margin:0px;
+              margin-left: 0pt;
                 padding:8px;
                  border-top:5px ;
                 border-bottom:1px ;
@@ -80,9 +84,11 @@
                .sliderbar ul li a
                 {
                   margin: 0pt;
-                    color:greenyellow;
+                  padding-left:0px;
+                    color:red;
                     display:blue;
                     text-decoration:none;
+                    text-align: left;
                 }
                        .sliderbar ul li:hover
                         {
