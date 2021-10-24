@@ -31,7 +31,7 @@
 .menu ul li:hover ul {
   display: block;
 }
-.slider{ 
+#slider{ 
   margin:0;
   padding:0;
 }
@@ -64,7 +64,7 @@
             position:fixed;
             width:fixed auto;
             height:511px;
-            background:red;
+            background:blue;
     top:10px;
     left: 1px;
     border-radius: 5px;
@@ -80,7 +80,7 @@
                .sliderbar ul li a
                 {
                   margin: 0pt;
-                    color:gray;
+                    color:greenyellow;
                     display:blue;
                     text-decoration:none;
                 }
