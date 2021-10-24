@@ -13,11 +13,11 @@
   margin: 1px;
   azimuth: center;
 }
-.menu ul li a {
+.menu ul li a  {
   color: Silver;
   text-decoration: none;
   font-family: Calibri;
-  background-color: Blue;
+  background-color: green;
   display: block;
   padding: 10px;
 }
