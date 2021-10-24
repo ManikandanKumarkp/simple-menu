@@ -31,3 +31,53 @@
 .menu ul li:hover ul {
   display: block;
 }
+
+.btn
+{
+    position:fixed;
+    background-color:Lime;
+    width:20px;
+    height:9px;
+    border-radius:50px;
+    text-align:center;
+    display:block;
+    margin:8px;
+    padding:4px;
+    border:2px solid #000;
+    cursor:pointer;
+    opacity:0.1;
+    transition:3s;
+    top: -12px;
+    left: 9px;
+}
+    .btn:hover
+    {
+       opacity:1;
+        }
+          .sliderbar ul
+        {
+            list-style:none;
+            position:fixed;
+            width:fixed auto;
+            height:511px;
+            background:red;
+    top: 0px;
+    left: 11px;
+}
+            .sliderbar ul li
+            {
+                padding:15px;
+                 border-top:1px solid #333;
+                border-bottom:1px solid  #333;
+                }
+               .sliderbar ul li a
+                {
+                    color:Green;
+                    display:block;
+                    text-decoration:none;
+                }
+                       .sliderbar ul li:hover
+                        {
+                            background:#f3f5f9;
+                            }
+                           
