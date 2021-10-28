@@ -5,13 +5,14 @@
   padding: 0;
   list-style: none;
   text-align: center;
+ 
 }
 .menu ul li {
   float: left;
-  text-align: left;
+  text-align: center;
   width: 120px;
   margin: 1px;
-  azimuth: center;
+ 
 }
 .menu ul li a  {
   color: Silver;
@@ -20,6 +21,7 @@
   background-color: green;
   display: block;
   padding: 10px;
+  border-radius: 10px;
 }
 .menu ul li a:hover {
   background: #fff;
